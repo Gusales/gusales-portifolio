@@ -4,7 +4,7 @@ import * as Logo from '@/assets/logo.svg'
 
 export function Navbar() {
   return (
-    <nav className="absolute top-0 left-0 w-full z-10 bg-white">
+    <nav className="w-full z-10 bg-white">
       <div className="pt-3 px-4 pb-1 flex justify-between">
         <Link href="/">
           <Image src={Logo} alt="Dev Gusales" width={150} height={150} />
